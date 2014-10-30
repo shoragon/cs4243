@@ -25,6 +25,23 @@ z4 = [0,0,0,0]
 x5 = [0,1,1,0]
 y5 = [0,0,0,0]
 z5 = [1,1,0,0]
+#triangle top-front
+xTri= [-0.2, 0.5,1.2]
+yTri= [1   , 1.5,  1]
+zTri= [0   ,0.5 ,  0]
+#triangle top-left
+xtril=[-0.2, 0.5,-0.2]
+ytril=[1   , 1.5,   1]
+ztril=[0   ,0.5 ,   1]
+#triangle top-right
+xtrir=[1.2,0.5,1.2]
+ytrir=[1  ,1.5,  1]
+ztrir=[0  ,0.5,  1]
+#triangle top-back
+xtrir=[1.2,0.5,-0.2]
+ytrir=[1  ,1.5,  1]
+ztrir=[1  ,0.5,  1]
+
 verts = [zip(x, y,z)]
 verts1 = [zip(x1, y1,z1)]
 verts2 = [zip(x2, y2,z2)]
