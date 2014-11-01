@@ -38,9 +38,43 @@ xtrir=[1.2,0.5,1.2]
 ytrir=[1  ,1.5,  1]
 ztrir=[0  ,0.5,  1]
 #triangle top-back
-xtrir=[1.2,0.5,-0.2]
-ytrir=[1  ,1.5,  1]
-ztrir=[1  ,0.5,  1]
+xtrib=[1.2,0.5,-0.2]
+ytrib=[1  ,1.5,  1]
+ztrib=[1  ,0.5,  1]
+
+#rectangular block behind-front
+xrectf=[-3 ,-3,3,3  ]
+yrectf=[0.6,0 ,0,0.6]
+zrectf=[0  ,0 ,0,0  ]
+#rectangular block behind-left
+xrectl=[-3 ,-3,-3,-3 ]
+yrectl=[0.6,0 ,0,0.6]
+zrectl=[0  ,0 ,-1,-1 ]
+#rectangular block behind-back
+xrectb=[-3 ,-3,3,3  ]
+yrectb=[0.6,0 ,0,0.6]
+zrectb=[-1 ,-1,-1,-1]
+#rectangular block behind-right
+xrectr=[ 3 ,3 , 3, 3 ]
+yrectr=[0.6,0 ,0,0.6 ]
+zrectr=[0  ,0 ,-1,-1 ]
+#triangle top-front
+xrectrooff=[-3 ,3  ,0   ]
+yrectrooff=[0.6,0.6,1   ]
+zrectrooff=[0  ,0  ,-0.5]
+#triangle top-left
+xrectroofl=[-3 ,-3  ,0   ]
+yrectroofl=[0.6,0.6,1    ]
+zrectroofl=[0  ,-1  ,-0.5]
+#triangle top-back
+xrectroofl=[-3 ,3  ,0   ]
+yrectroofl=[0.6,0.6,1   ]
+zrectroofl=[-1  ,-1  ,-0.5]
+#triangle top-right
+xrectroofl=[3 ,3  ,0     ]
+yrectroofl=[0.6,0.6,1    ]
+zrectroofl=[0  ,-1  ,-0.5]
+
 
 verts = [zip(x, y,z)]
 verts1 = [zip(x1, y1,z1)]
@@ -58,7 +92,7 @@ ax.add_collection3d(Poly3DCollection(verts3), zs=0, zdir='x')
 ax.add_collection3d(Poly3DCollection(verts4), zs=0, zdir='x')
 ax.add_collection3d(Poly3DCollection(verts5), zs=0, zdir='x')
 ax.set_xlabel('X')
-ax.set_xlim3d(0, 2)
+ax.set_xlim3d(-4, 4)
 ax.set_ylabel('Y')
 ax.set_ylim3d(0, 2)
 ax.set_zlabel('Z')
