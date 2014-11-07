@@ -37,14 +37,6 @@ yRF04=[2,3,2]
 zRF04=[5,7,9]
 
 
-vertsB1FF = [zip(x01,y01,z01)]
-vertsB1LF = [zip(x02,y02,z02)]
-vertsB1RF = [zip(x03,y03,z03)]
-vertsB1BF = [zip(x04,y04,z04)]
-vertsB1RFF = [zip(xRF01,yRF01,zRF01)]
-vertsB1RLF = [zip(xRF02,yRF02,zRF02)]
-vertsB1RBF = [zip(xRF03,yRF03,zRF03)]
-vertsB1RRF = [zip(xRF04,yRF04,zRF04)]
 
 #B22 Front Face 
 x11=[4,4,7,7]
@@ -80,14 +72,7 @@ xRF14=[7,5.5,7]
 yRF14=[2,3,2]
 zRF14=[3,3.5,4]
 
-vertsB22FF = [zip(x11,y11,z11)]
-vertsB22LF = [zip(x12,y12,z12)]
-vertsB22RF = [zip(x13,y13,z13)]
-vertsB22BF = [zip(x14,y14,z14)]
-vertsB22RFF = [zip(xRF11,yRF11,zRF11)]
-vertsB22RLF = [zip(xRF12,yRF12,zRF12)]
-vertsB22RBF = [zip(xRF13,yRF13,zRF13)]
-vertsB22RRF = [zip(xRF14,yRF14,zRF14)]
+
 
 #B2 Front Face 
 x21=[4,4,7,7]
@@ -123,6 +108,117 @@ xRF24=[7,5.5,7]
 yRF24=[2,3,2]
 zRF24=[-3,0,3]
 
+
+
+#B3 Part 1 Front Face 
+x31=[1,1,3,3]
+y31=[0.5,2,2,0.5]
+z31=[2,2,2,2]
+#B3 Part 1 Left Face
+x32=[1,1,1,1]
+y32=[0.5,2,2,0.5]
+z32=[2,2,1,1]
+#B3 Part 1 Right Face
+x33=[3,3,3,3]
+y33=[0.5,2,2,0.5]
+z33=[2,2,1,1]
+#B3 Part 1 Back Face
+x34=[1,1,3,3]
+y34=[0.5,2,2,0.5]
+z34=[1,1,1,1]
+#B3 Part 1 Top
+x35=[1,1,3,3]
+y35=[2,2,2,2]
+z35=[1,2,2,1]
+
+
+
+#B3 Part 2 Front Face 
+x41=[3,3,3.5,3.5]
+y41=[0.5,2,2,0]
+z41=[2,2,2,2]
+#B3 Part 2 Left Face
+x42=[3,3,3,3]
+y42=[0.5,2,2,0.5]
+z42=[2,2,1,1]
+#B3 Part 2 Right Face
+x43=[3.5,3.5,3.5,3.5]
+y43=[0,2,2,0]
+z43=[2,2,1,1]
+#B3 Part 2 Back Face
+x44=[3,3,3.5,3.5]
+y44=[0.5,2,2,0]
+z44=[1,1,1,1]
+#B3 Part 2 Top
+x45=[3,3,3.5,3.5]
+y45=[2,2,2,2]
+z45=[1,2,2,1]
+
+
+#B3 Part 3 Front Face 
+x51=[3.5,3.5,4,4]
+y51=[0,2,1.5,0]
+z51=[2,2,2,2]
+#B3 Part 3 Left Face
+x52=[3.5,3.5,3.5,3.5]
+y52=[0,2,2,0]
+z52=[2,2,1,1]
+#B3 Part 3 Right Face
+x53=[4,4,4,4]
+y53=[0,1.5,1.5,0]
+z53=[2,2,1,1]
+#B3 Part 3 Back Face
+x54=[3.5,3.5,4,4]
+y54=[0,2,1.5,0]
+z54=[1,1,1,1]
+#B3 Part 3 Top
+x55=[3.5,3.5,4,4]
+y55=[2,2,1.5,1.5]
+z55=[1,2,2,1]
+
+
+
+#B4 Front Face 
+x61=[3.5,3.5,4,4]
+y61=[0,0.5,0.5,0]
+z61=[5,5,5,5]
+#B4 Left Face
+x62=[3.5,3.5,3.5,3.5]
+y62=[0,0.5,0.5,0]
+z62=[5,5,4,4]
+#B4 Right Face
+x63=[4,4,4,4]
+y63=[0,0.5,0.5,0]
+z63=[5,5,4,4]
+#B4 Back Face
+x64=[3.5,3.5,4,4]
+y64=[0,0.5,0.5,0]
+z64=[4,4,4,4]
+
+
+
+#Grass
+x75=[-10,-10,10,10]
+y75=[0.01,0.01,0.01,0.01]
+z75=[-10,10,10,-10]
+
+
+vertsB1FF = [zip(x01,y01,z01)]
+vertsB1LF = [zip(x02,y02,z02)]
+vertsB1RF = [zip(x03,y03,z03)]
+vertsB1BF = [zip(x04,y04,z04)]
+vertsB1RFF = [zip(xRF01,yRF01,zRF01)]
+vertsB1RLF = [zip(xRF02,yRF02,zRF02)]
+vertsB1RBF = [zip(xRF03,yRF03,zRF03)]
+vertsB1RRF = [zip(xRF04,yRF04,zRF04)]
+vertsB22FF = [zip(x11,y11,z11)]
+vertsB22LF = [zip(x12,y12,z12)]
+vertsB22RF = [zip(x13,y13,z13)]
+vertsB22BF = [zip(x14,y14,z14)]
+vertsB22RFF = [zip(xRF11,yRF11,zRF11)]
+vertsB22RLF = [zip(xRF12,yRF12,zRF12)]
+vertsB22RBF = [zip(xRF13,yRF13,zRF13)]
+vertsB22RRF = [zip(xRF14,yRF14,zRF14)]
 vertsB2FF = [zip(x21,y21,z21)]
 vertsB2LF = [zip(x22,y22,z22)]
 vertsB2RF = [zip(x23,y23,z23)]
@@ -131,159 +227,26 @@ vertsB2RFF = [zip(xRF21,yRF21,zRF21)]
 vertsB2RLF = [zip(xRF22,yRF22,zRF22)]
 vertsB2RBF = [zip(xRF23,yRF23,zRF23)]
 vertsB2RRF = [zip(xRF24,yRF24,zRF24)]
-
-
-#B3 Part 1 Front Face 
-x31=[4,4,7,7]
-y31=[0,2,2,0]
-z31=[3,3,3,3]
-#B3 Part 1 Left Face
-x32=[4,4,4,4]
-y32=[0,2,2,0]
-z32=[3,3,-3,-3]
-#B3 Part 1 Right Face
-x33=[7,7,7,7]
-y33=[0,2,2,0]
-z33=[3,3,-3,-3]
-#B3 Part 1 Back Face
-x34=[4,4,7,7]
-y34=[0,2,2,0]
-z34=[-3,-3,-3,-3]
-#B3 Part 1 Top
-x34=[4,4,7,7]
-y34=[0,2,2,0]
-z34=[-3,-3,-3,-3]
-
-vertsB3FF = [zip(x21,y21,z21)]
-vertsB3LF = [zip(x22,y22,z22)]
-vertsB3RF = [zip(x23,y23,z23)]
-vertsB3BF = [zip(x24,y24,z24)]
-vertsB3T = [zip(x24,y24,z24)]
-
-
-#B3 Part 2 Front Face 
-x31=[4,4,7,7]
-y31=[0,2,2,0]
-z31=[3,3,3,3]
-#B3 Part 2 Left Face
-x32=[4,4,4,4]
-y32=[0,2,2,0]
-z32=[3,3,-3,-3]
-#B3 Part 2 Right Face
-x33=[7,7,7,7]
-y33=[0,2,2,0]
-z33=[3,3,-3,-3]
-#B3 Part 2 Back Face
-x34=[4,4,7,7]
-y34=[0,2,2,0]
-z34=[-3,-3,-3,-3]
-#B3 Part 2 Top
-x34=[4,4,7,7]
-y34=[0,2,2,0]
-z34=[-3,-3,-3,-3]
-
-vertsB3FF = [zip(x21,y21,z21)]
-vertsB3LF = [zip(x22,y22,z22)]
-vertsB3RF = [zip(x23,y23,z23)]
-vertsB3BF = [zip(x24,y24,z24)]
-vertsB3T = [zip(x24,y24,z24)]
-
-
-#B3 Part 3 Front Face 
-x31=[4,4,7,7]
-y31=[0,2,2,0]
-z31=[3,3,3,3]
-#B3 Part 3 Left Face
-x32=[4,4,4,4]
-y32=[0,2,2,0]
-z32=[3,3,-3,-3]
-#B3 Part 3 Right Face
-x33=[7,7,7,7]
-y33=[0,2,2,0]
-z33=[3,3,-3,-3]
-#B3 Part 3 Back Face
-x34=[4,4,7,7]
-y34=[0,2,2,0]
-z34=[-3,-3,-3,-3]
-#B3 Part 3 Top
-x34=[4,4,7,7]
-y34=[0,2,2,0]
-z34=[-3,-3,-3,-3]
-
-vertsB3FF = [zip(x21,y21,z21)]
-vertsB3LF = [zip(x22,y22,z22)]
-vertsB3RF = [zip(x23,y23,z23)]
-vertsB3BF = [zip(x24,y24,z24)]
-vertsB3T = [zip(x24,y24,z24)]
-
-
-#B3 Part 1 Front Face 
-x31=[4,4,7,7]
-y31=[0,2,2,0]
-z31=[3,3,3,3]
-#B3 Left Face
-x32=[4,4,4,4]
-y32=[0,2,2,0]
-z32=[3,3,-3,-3]
-#B3 Right Face
-x33=[7,7,7,7]
-y33=[0,2,2,0]
-z33=[3,3,-3,-3]
-#B3 Back Face
-x34=[4,4,7,7]
-y34=[0,2,2,0]
-z34=[-3,-3,-3,-3]
-#B3 Top
-x34=[4,4,7,7]
-y34=[0,2,2,0]
-z34=[-3,-3,-3,-3]
-
-vertsB3FF = [zip(x21,y21,z21)]
-vertsB3LF = [zip(x22,y22,z22)]
-vertsB3RF = [zip(x23,y23,z23)]
-vertsB3BF = [zip(x24,y24,z24)]
-vertsB3T = [zip(x24,y24,z24)]
-
-
-#B4 Front Face 
-x41=[4,4,7,7]
-y41=[0,2,2,0]
-z41=[3,3,3,3]
-#B4 Left Face
-x42=[4,4,4,4]
-y42=[0,2,2,0]
-z42=[3,3,-3,-3]
-#B4 Right Face
-x43=[7,7,7,7]
-y43=[0,2,2,0]
-z43=[3,3,-3,-3]
-#B4 Back Face
-x44=[4,4,7,7]
-y44=[0,2,2,0]
-z44=[-3,-3,-3,-3]
-#B4 Top
-x44=[4,4,7,7]
-y44=[0,2,2,0]
-z44=[-3,-3,-3,-3]
-
-vertsB4FF = [zip(x21,y21,z21)]
-vertsB4LF = [zip(x22,y22,z22)]
-vertsB4RF = [zip(x23,y23,z23)]
-vertsB4BF = [zip(x24,y24,z24)]
-vertsB4T = [zip(x24,y24,z24)]
-
-
-
-
-
-
-
-
-
-
-
-
-
+vertsB3P1FF = [zip(x31,y31,z31)]
+vertsB3P1LF = [zip(x32,y32,z32)]
+vertsB3P1RF = [zip(x33,y33,z33)]
+vertsB3P1BF = [zip(x34,y34,z34)]
+vertsB3P1T  = [zip(x35,y35,z35)]
+vertsB3P2FF = [zip(x41,y41,z41)]
+vertsB3P2LF = [zip(x42,y42,z42)]
+vertsB3P2RF = [zip(x43,y43,z43)]
+vertsB3P2BF = [zip(x44,y44,z44)]
+vertsB3P2T  = [zip(x45,y45,z45)]
+vertsB3P3FF = [zip(x51,y51,z51)]
+vertsB3P3LF = [zip(x52,y52,z52)]
+vertsB3P3RF = [zip(x53,y53,z53)]
+vertsB3P3BF = [zip(x54,y54,z54)]
+vertsB3P3T  = [zip(x55,y55,z55)]
+vertsB4FF = [zip(x61,y61,z61)]
+vertsB4LF = [zip(x62,y62,z62)]
+vertsB4RF = [zip(x63,y63,z63)]
+vertsB4BF = [zip(x64,y64,z64)]
+vertsGrass = [zip(x75,y75,z75)]
 
 fig = plt.figure()
 ax = Axes3D(fig)
@@ -317,10 +280,38 @@ ax.add_collection3d(Poly3DCollection(vertsB2RLF), zs=0, zdir='x')
 ax.add_collection3d(Poly3DCollection(vertsB2RRF), zs=0, zdir='x')
 ax.add_collection3d(Poly3DCollection(vertsB2RBF), zs=0, zdir='x')
 
+
+ax.add_collection3d(Poly3DCollection(vertsB3P1FF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB3P1LF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB3P1RF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB3P1BF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB3P1T), zs=0, zdir='x')
+
+
+ax.add_collection3d(Poly3DCollection(vertsB3P2FF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB3P2LF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB3P2RF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB3P2BF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB3P2T), zs=0, zdir='x')
+
+ax.add_collection3d(Poly3DCollection(vertsB3P3FF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB3P3LF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB3P3RF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB3P3BF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB3P3T), zs=0, zdir='x')
+
+
+ax.add_collection3d(Poly3DCollection(vertsB4FF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB4LF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB4RF), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vertsB4BF), zs=0, zdir='x')
+
+ax.add_collection3d(Poly3DCollection(vertsGrass, facecolors='g'), zs=0, zdir='x')
+
 ax.set_xlabel('X')
 ax.set_xlim3d(-10, 10)
 ax.set_ylabel('Y')
-ax.set_ylim3d(0, 10)
+ax.set_ylim3d(0, 5)
 ax.set_zlabel('Z')
 ax.set_zlim3d(-10, 10)
 plt.show()
