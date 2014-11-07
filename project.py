@@ -139,6 +139,111 @@ xmainboxt=[1,3,3,1]
 ymainboxt=[3,3,3,3]
 zmainboxt=[-5,-5,-8,-8]
 
+#front left blk
+xflmainboxf=[1,2,2,1]
+yflmainboxf=[0,0,2.5,2.5]
+zflmainboxf=[-4,-4,-4,-4]
+
+xflmainboxl=[1,1,1,1]
+yflmainboxl=[0,0,2.5,2.5]
+zflmainboxl=[-5,-4,-4,-5]
+
+xflmainboxr=[2,2,2,2]
+yflmainboxr=[0,0,2.5,2.5]
+zflmainboxr=[-4,-5,-5,-4]
+
+xflmainboxb=[1,2,2,1]
+yflmainboxb=[0,0,2.5,2.5]
+zflmainboxb=[-5,-5,-5,-5]
+
+xflmainboxt=[1,2,2,1]
+yflmainboxt=[2.5,2.5,2.5,2.5]
+zflmainboxt=[-4,-4,-5,-5]
+
+#front right box
+xfrmainboxf=[2,3,3,2]
+yfrmainboxf=[0,0,2,2]
+zfrmainboxf=[-4,-4,-4,-4]
+
+xfrmainboxl=[2,2,2,2]
+yfrmainboxl=[0,0,2,2]
+zfrmainboxl=[-5,-4,-4,-5]
+
+xfrmainboxr=[3,3,3,3]
+yfrmainboxr=[0,0,2,2]
+zfrmainboxr=[-4,-5,-5,-4]
+
+xfrmainboxb=[2,3,3,2]
+yfrmainboxb=[0,0,2,2]
+zfrmainboxb=[-5,-5,-5,-5]
+
+xfrmainboxt=[2,3,3,2]
+yfrmainboxt=[2,2,2,2]
+zfrmainboxt=[-4,-4,-5,-5]
+
+#second blk on top
+xsecmainboxf=[1.3,2.7,2.7,1.3]
+ysecmainboxf=[3,3,5,5]
+zsecmainboxf=[-5.5,-5.5,-5.5,-5.5]
+
+xsecmainboxl=[1.3,1.3,1.3,1.3]
+ysecmainboxl=[3,3,5,5]
+zsecmainboxl=[-8,-5.5,-5.5,-8]
+
+xsecmainboxr=[2.7,2.7,2.7,2.7]
+ysecmainboxr=[3,3,5,5]
+zsecmainboxr=[-5.5,-8,-8,-5.5]
+
+xsecmainboxb=[1.3,2.7,2.7,1.3]
+ysecmainboxb=[3,3,5,5]
+zsecmainboxb=[-8,-8,-8,-8]
+
+xsecmainboxt=[1.3,2.7,2.7,1.3]
+ysecmainboxt=[5,5,5,5]
+zsecmainboxt=[-5.5,-5.5,-8,-8]
+
+#top most blk 
+xtmainboxf=[1.5,2.5,2.5,1.5]
+ytmainboxf=[5,5,6,6]
+ztmainboxf=[-5.5,-5.5,-5.5,-5.5]
+
+xtmainboxl=[1.5,1.5,1.5,1.5]
+ytmainboxl=[5,5,6,6]
+ztmainboxl=[-8,-5.5,-5.5,-8]
+
+xtmainboxr=[2.5,2.5,2.5,2.5]
+ytmainboxr=[5,5,6,6]
+ztmainboxr=[-5.5,-8,-8,-5.5]
+
+xtmainboxb=[1.5,2.5,2.5,1.5]
+ytmainboxb=[5,5,6,6]
+ztmainboxb=[-8,-8,-8,-8]
+
+xtmainboxt=[1.5,2.5,2.5,1.5]
+ytmainboxt=[6,6,6,6]
+ztmainboxt=[-5.5,-5.5,-8,-8]
+
+#leftside blk
+xlmainboxf=[0.5,1,1,0.5]
+ylmainboxf=[0,0,2.5,2.5]
+zlmainboxf=[-6,-6,-6,-6]
+
+xlmainboxl=[0.5,0.5,0.5,0.5]
+ylmainboxl=[0,0,2.5,2.5]
+zlmainboxl=[-8,-6,-6,-8]
+
+xlmainboxr=[1,1,1,1]
+ylmainboxr=[0,0,2.5,2.5]
+zlmainboxr=[-6,-8,-8,-6]
+
+xlmainboxb=[0.5,1,1,0.5]
+ylmainboxb=[0,0,2.5,2.5]
+zlmainboxb=[-8,-8,-8,-8]
+
+xlmainboxt=[0.5,1,1,0.5]
+ylmainboxt=[2.5,2.5,2.5,2.5]
+zlmainboxt=[-6,-6,-8,-8]
+
 #---------vertices--------------------------------------------
 # block---------------------------------------
 verts = [zip(x, y,z)]
@@ -181,7 +286,35 @@ vmainboxr=[zip(xmainboxr,ymainboxr,zmainboxr)]
 vmainboxb=[zip(xmainboxb,ymainboxb,zmainboxb)]
 vmainboxt=[zip(xmainboxt,ymainboxt,zmainboxt)]
 
+vflmainboxf=[zip(xflmainboxf,yflmainboxf,zflmainboxf)]
+vflmainboxl=[zip(xflmainboxl,yflmainboxl,zflmainboxl)]
+vflmainboxr=[zip(xflmainboxr,yflmainboxr,zflmainboxr)]
+vflmainboxb=[zip(xflmainboxb,yflmainboxb,zflmainboxb)]
+vflmainboxt=[zip(xflmainboxt,yflmainboxt,zflmainboxt)]
 
+vfrmainboxf=[zip(xfrmainboxf,yfrmainboxf,zfrmainboxf)]
+vfrmainboxl=[zip(xfrmainboxl,yfrmainboxl,zfrmainboxl)]
+vfrmainboxr=[zip(xfrmainboxr,yfrmainboxr,zfrmainboxr)]
+vfrmainboxb=[zip(xfrmainboxb,yfrmainboxb,zfrmainboxb)]
+vfrmainboxt=[zip(xfrmainboxt,yfrmainboxt,zfrmainboxt)]
+
+vsecmainboxf=[zip(xsecmainboxf,ysecmainboxf,zsecmainboxf)]
+vsecmainboxl=[zip(xsecmainboxl,ysecmainboxl,zsecmainboxl)]
+vsecmainboxr=[zip(xsecmainboxr,ysecmainboxr,zsecmainboxr)]
+vsecmainboxb=[zip(xsecmainboxb,ysecmainboxb,zsecmainboxb)]
+vsecmainboxt=[zip(xsecmainboxt,ysecmainboxt,zsecmainboxt)]
+
+vtmainboxf=[zip(xtmainboxf,ytmainboxf,ztmainboxf)]
+vtmainboxl=[zip(xtmainboxl,ytmainboxl,ztmainboxl)]
+vtmainboxr=[zip(xtmainboxr,ytmainboxr,ztmainboxr)]
+vtmainboxb=[zip(xtmainboxb,ytmainboxb,ztmainboxb)]
+vtmainboxt=[zip(xtmainboxt,ytmainboxt,ztmainboxt)]
+
+vlmainboxf=[zip(xlmainboxf,ylmainboxf,zlmainboxf)]
+vlmainboxl=[zip(xlmainboxl,ylmainboxl,zlmainboxl)]
+vlmainboxr=[zip(xlmainboxr,ylmainboxr,zlmainboxr)]
+vlmainboxb=[zip(xlmainboxb,ylmainboxb,zlmainboxb)]
+vlmainboxt=[zip(xlmainboxt,ylmainboxt,zlmainboxt)]
 
 
 fig = plt.figure()
@@ -227,10 +360,41 @@ ax.add_collection3d(Poly3DCollection(vmainboxr), zs=0, zdir='x')
 ax.add_collection3d(Poly3DCollection(vmainboxb), zs=0, zdir='x')
 ax.add_collection3d(Poly3DCollection(vmainboxt), zs=0, zdir='x')
 
+ax.add_collection3d(Poly3DCollection(vflmainboxf), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vflmainboxl), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vflmainboxr), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vflmainboxb), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vflmainboxt), zs=0, zdir='x')
+
+ax.add_collection3d(Poly3DCollection(vfrmainboxf), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vfrmainboxl), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vfrmainboxr), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vfrmainboxb), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vfrmainboxt), zs=0, zdir='x')
+
+ax.add_collection3d(Poly3DCollection(vsecmainboxf), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vsecmainboxl), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vsecmainboxr), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vsecmainboxb), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vsecmainboxt), zs=0, zdir='x')
+
+ax.add_collection3d(Poly3DCollection(vtmainboxf), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vtmainboxl), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vtmainboxr), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vtmainboxb), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vtmainboxt), zs=0, zdir='x')
+
+ax.add_collection3d(Poly3DCollection(vlmainboxf), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vlmainboxl), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vlmainboxr), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vlmainboxb), zs=0, zdir='x')
+ax.add_collection3d(Poly3DCollection(vlmainboxt), zs=0, zdir='x')
+
+
 ax.set_xlabel('X')
-ax.set_xlim3d(-4, 4)
+ax.set_xlim3d(-6, 6)
 ax.set_ylabel('Y')
-ax.set_ylim3d(-4, 4)
+ax.set_ylim3d(-6, 6)
 ax.set_zlabel('Z')
-ax.set_zlim3d(-4, 4)
+ax.set_zlim3d(-6, 6)
 plt.show()
